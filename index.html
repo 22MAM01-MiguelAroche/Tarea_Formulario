@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form name="fmregistro" method="post" action="principal.html">
+        <h1>FORMULARIO DE REGISTRO</h1>
+        <label id="label">Complete el formulario con sus datos</label>
+        <p id="linea_hr">&nbsp;</p>
+        <label id="label">Nombres y apellidos</label>
+        <input name="txtnombres" type="text" id="caja" size="60" placeholder="ingrese datos completos" required/>
+        <br><br>
+
+        <label id="label">DNI</label>
+        <input type="text" id="caja" name="txtdni" size="60" placeholder="8 caracteres" disabled/>
+        <br><br>
+
+        <label id="label">Telefono</label>
+        <input type="tel" id="caja" size="60" name="txtfono"/>
+        <br><br>
+
+        <label id="label">Estudios realizados</label>
+        <input type="checkbox" name="chkprimaria" checked="checked"/> Primaria
+
+        <label id="label"></label>
+        <input type="checkbox" name="chksecundaria"/> Secundaria
+
+        <label id="label"></label>
+        <input type="checkbox" name="chk tecnico"/> Técnico
+
+        <label id="label"></label>
+        <input type="checkbox" name="chkuniversitario"/> Universitario
+        <br><br>
+
+        <label id="label">Estado civil</label>
+        <input type="radio" name="btnestado" value="s" checked="checked"/> Soltero
+
+        <label id="label"></label>
+        <input type="radio" name="btnestado" value="c"/> Casado
+
+        <label id="label"></label>
+        <input type="radio" name="btnestado" value="v"/> Viudo
+
+        <label id="label"></label>
+        <input type="radio" name="btnestado" value="d"/> Divorciado
+        <br/>
+        <br><br>
+
+        <label id="label">Provincia</label>
+        <input type="text" name="txtprovincia" list="provincias"/>
+        <datalist id="provincias">
+            <option value="Lima"/>
+            <option value="Arequipa"/>
+            <option value="Tacna"/>
+            <option value="Trujillo"/>
+            <option value="Huancayo"/>
+        </datalist>
+        <br><br>
+        
+
+        <label id="label">Correo electrónico</label>
+        <input type="email" id="caja" size="60" name="txtemail"/>
+        <br><br>
+
+        <label id="label">Clave personal</label>
+        <input type="password" id="caja" name="txtclave" size="60" placeholder="Máximo 6 caracteres"/>
+        <br><br>
+
+        <label id="label">Color de preferencia</label>
+        <input type="color" name="txtcolor"/>
+        <br><br>
+
+        <label id="label">Fecha de nacimiento</label>
+        <input type="datetime-local" name="txtfecha"/>
+        <br><br>
+
+        <input type="submit" value="registrar"/>
+        <input type="reset" value="limpiar"/>
+    </form>
+
+    <!--inicio de pie de página-->
+      <hr noshade="5px" size="5px">
+      <center>
+      <h4>Tics I - 2025 <br>Elaborado por MAAM</h4>
+      </center>
+    <!--Final del pie de página-->
+    
+</body>
+</html>

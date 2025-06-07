@@ -1,0 +1,54 @@
+/*Estilo para el fondo de la pagina web*/
+body {
+    font-family: "tahoma";
+    font-size: 12px;
+}
+
+/*Estilo para el formulario*/
+#formulario {
+    border: solid 2px #b7ddf2;
+    background: #b7ddf2;
+    margin: 0 auto;
+    width: 420px;
+    padding: 10px;
+}
+
+/*Estilo para el titulo*/
+h1 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+/*Estilo para el texto y su linea*/
+#linea_hr {
+    margin-bottom: 5px;
+    border-bottom: solid 1px #FFF;
+    padding-bottom: 5px;
+}
+
+/*Estilo para los textos del formulario*/
+label {
+    display: block;
+    font-weight: bold;
+    width: 240px;
+    font-size: 12px;
+}
+
+/*Estilo para las cajas de texto simple*/
+#caja {
+    padding: 4px;
+    border: solid 1px #aacf5e;
+    margin: 2px 0 5px 0;
+}
+
+/*Estilo para el boton Registrar*/
+#boton {
+    clear: both;
+    margin-left: 150px;
+    height: 31px;
+    background: #5b8d6d;
+    text-align: black; /* Esto parece ser un error, debería ser color: black; o similar */
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+}
